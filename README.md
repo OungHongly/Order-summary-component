@@ -3,10 +3,8 @@
 - [Overview](#overview)
   - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
-  - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
 
 ## Overview
 
@@ -18,11 +16,8 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
-
-### Links
-
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+![](./design/image.png)
+![](./design/mobile.png)
 
 ## My process
 
@@ -31,7 +26,3 @@ Users should be able to:
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-
-### What I learned
-
-...
