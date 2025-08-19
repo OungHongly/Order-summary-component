@@ -41,7 +41,7 @@
   /* COLOR : Tint / Base / Shade */
   /* Use website: maketintsandshades.com */
   --primary-pale-blue: hsl(225, 100%, 94%);
-  --primary-bright-blue: hsl(245, 75%, 52%);
+  --primary-bright-blue: rgb(56, 41, 224);
 
   --Very-pale-blue: hsl(225, 100%, 98%);
   --Desaturated-blue: hsl(224, 23%, 55%);
@@ -124,6 +124,91 @@ span {
 /* ==== Styling layout ======== */
 
 .container {
-  width: 90%;
-  margin: 0 auto;
+  min-height: 100vh;
+
+  background-color: var(--primary-pale-blue);
+  background-image: url("../images/pattern-background-desktop.svg");
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: contain;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card-order {
+  max-width: 350px;
+
+  background-color: var(--Very-pale-blue);
+  border-radius: var(--space-md);
+  overflow: hidden;
+}
+.card-image {
+  width: 100%;
+}
+.card-image img {
+  display: block;
+  width: 100%;
+}
+.card-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  padding: var(--space-lg);
+  text-align: center;
+}
+.card-header {
+  font-size: var(--text-h6);
+  font-weight: var(--fw-900);
+  margin-bottom: var(--space-md);
+  color: var(--Dark-blue);
+}
+.card-text {
+  margin-bottom: var(--space-lg);
+}
+.card-plan {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-bottom: var(--space-lg);
+}
+.plan-group {
+  display: flex;
+  gap: var(--space-md);
+  align-items: center;
+}
+.icon-music {
+  width: 45px;
+}
+.plan-price span {
+  font-weight: var(--fw-bold);
+  color: var(--Dark-blue);
+}
+.plan-change {
+  font-weight: var(--fw-bold);
+}
+.btn {
+  width: 100%;
+  padding: 1.2rem;
+  border-radius: var(--space-sm);
+  border: none;
+  font-weight: var(--fw-bold);
+}
+.btn-pay {
+  margin-bottom: var(--space-md);
+  background-color: var(--primary-bright-blue);
+
+  color: var(--Very-pale-blue);
+  box-shadow: 0px 6px 12px rgba(56, 41, 224, 0.2);
+}
+.btn-cancel {
+  color: var(--Desaturated-blue);
+  background-color: transparent;
+}
+
+.attribution {
+  padding: var(--space-md);
+  text-align: center;
 }
